@@ -1,0 +1,103 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand {
+    font-weight: 500;
+}
+.nav-link {
+    transition: none !important;
+    padding: 1vh;
+}
+.navbar-nav {
+    --bs-nav-link-padding-x: 1;
+}
+#icon {
+    width: 3vh;
+    height: 3vh;
+}
+#themetoggler {
+    background-color: transparent;
+    text-decoration: none;
+    padding: 1vh !important;
+    border-radius: 8px; 
+    border-color: transparent;
+}
+
+#about {
+    text-decoration: none;
+    padding: 1vh !important;
+    border-radius: 8px;
+    width: auto;
+    display: flex;
+}
+.nopad {
+    margin-right: 1rem !important;
+}
+
+.page-content {
+    margin: 2%;
+    margin-top: 1%;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 2;
+}
+h1,h2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.col {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card1, .card3{
+    visibility: hidden !important;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+#aboutcard {
+    object-fit: cover;
+    height: fill;
+    object-position: 0%;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.artlist {
+    border-radius: 12px;
+    padding: 1px;
+    padding-left: 13px;
+    padding-right: 13px;
+    background: black;
+    align-items: start;
+    width: 100%;
+}
+.col-10 {
+    align-items: start;
+    justify-content: left;
+    display: flex;
+}
+
+.toprow {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    font-weight: bold;
+    border-bottom: black 1px solid;
+}
+.bottomrow {
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none;
+}

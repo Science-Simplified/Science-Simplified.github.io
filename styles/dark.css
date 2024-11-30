@@ -1,0 +1,51 @@
+body {
+    background: #202020 !important;
+    color: whitesmoke !important;
+}
+.navbar {
+    background: #333333 !important;
+    color: whitesmoke !important;
+}
+.navbar-brand {
+    color: whitesmoke !important;
+}
+.nav-link {
+    color: whitesmoke !important;
+}
+#icon {
+    color: whitesmoke !important;
+}
+#themetoggler {
+    filter: invert(100%) sepia(1%) saturate(182%) hue-rotate(273deg) brightness(117%) contrast(92%);
+}
+#themetoggler:hover {
+    background-color: #c3c4c5;
+}
+
+#about {
+    color: whitesmoke;
+}
+#about:hover {
+    background-color: darkslategray;
+}
+
+.navbar-toggler {
+    color: whitesmoke !important;
+    fill: whitesmoke !important;
+    border-color: whitesmoke !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%) sepia(1%) saturate(182%) hue-rotate(273deg) brightness(117%) contrast(92%);
+}
+
+.card1, .card2, .card3 {
+    background: #333333 !important;
+    color: whitesmoke !important;
+}
+.evens {
+    background-color: #333333 !important;
+}
+.odds {
+    background-color: #252525 !important;
+}

@@ -1,0 +1,42 @@
+body {
+    background: #f5f5f5 !important;
+    color: black !important;
+}
+.navbar {
+    background: #e7e7e7 !important;
+    color: black !important;
+}
+.navbar-brand {
+    color: black !important;
+}
+.nav-link {
+    color: black !important;
+}
+#icon {
+    color: black !important;
+}
+#themetoggler:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#about {
+    color: black;
+}
+#about:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+.card1, .card2, .card3 {
+    background: #e7e7e7 !important;
+    color: black !important;
+}
+.evens {
+    background-color: #f0f0f0 !important;
+}
+.odds {
+    background-color: #e7e7e7 !important;
+}
+.btn-primary {
+    background-color: rgb(131, 146, 233);
+    color: white !important;
+}
