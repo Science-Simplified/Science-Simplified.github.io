@@ -1,25 +1,23 @@
 body {
-    background: #202020 !important;
+    background: #121212 !important;
     color: whitesmoke !important;
 }
 .navbar {
-    background: #333333 !important;
-    color: whitesmoke !important;
+    background: #1E1E1E !important;
+    color: #c5daed !important; /* 70% tint of #3F82C4 */
 }
 .navbar-brand {
-    color: whitesmoke !important;
+    color: #c5daed !important; /* 70% tint of #3F82C4 */
 }
 .nav-link {
-    color: whitesmoke !important;
+    color: #c5daed !important; /* 70% tint of #3F82C4 */
 }
 #icon {
     color: whitesmoke !important;
-}
-#themetoggler {
-    filter: invert(100%) sepia(1%) saturate(182%) hue-rotate(273deg) brightness(117%) contrast(92%);
+    filter: brightness(0) saturate(100%) invert(89%) sepia(8%) saturate(666%) hue-rotate(173deg) brightness(95%) contrast(95%);
 }
 #themetoggler:hover {
-    background-color: #c3c4c5;
+    background-color: #252525;
 }
 
 #about {
@@ -35,17 +33,23 @@ body {
     border-color: whitesmoke !important;
 }
 
-.navbar-toggler-icon {
-    filter: invert(100%) sepia(1%) saturate(182%) hue-rotate(273deg) brightness(117%) contrast(92%);
-}
-
 .card1, .card2, .card3 {
-    background: #333333 !important;
+    background: #1E1E1E !important;
     color: whitesmoke !important;
 }
+.btn-primary {
+    background-color: #3F82C4;
+}
 .evens {
-    background-color: #333333 !important;
+    background-color: #1E1E1E !important;
 }
 .odds {
-    background-color: #252525 !important;
+    background-color: #181818 !important;
+}
+.license {
+    background-color: #1E1E1E;
+}
+
+h1,h2 {
+    color: #c5daed !important; /* 70% tint of #3F82C4 */
 }
