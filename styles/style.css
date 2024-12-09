@@ -1,8 +1,11 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'acumin-pro', sans-serif;
+}
+.navbar {
+    font-weight: 600;
 }
 .navbar-brand {
-    font-weight: 500;
+    font-weight: medium;
 }
 .nav-link {
     transition: none !important;
@@ -37,10 +40,11 @@ body {
 .page-content {
     margin: 2%;
     margin-top: 1%;
+    height: 100 vh;
 }
 
 .text {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 2;
 }
 h1,h2{
@@ -48,14 +52,23 @@ h1,h2{
     align-items: center;
     text-align: center;
     display: flex;
+    margin-bottom: 3vh;
+    font-weight: bold;
 }
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+
 .col {
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
-.card1, .card3{
+.card3{
     visibility: hidden !important;
 }
 
@@ -66,10 +79,11 @@ h1,h2{
 
 #aboutcard {
     object-fit: cover;
-    height: fill;
+    top:0;
     object-position: 0%;
     border-top-left-radius: 11px;
     border-top-right-radius: 11px;
+    height: 30vh;
 }
 
 .artlist {
@@ -101,4 +115,16 @@ h1,h2{
 a {
     color: inherit !important;
     text-decoration: none;
+}
+
+.license {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.bold {
+    font-weight: bold;
 }
