@@ -4,19 +4,20 @@ body {
 }
 .navbar {
     background: #e7e7e7 !important;
-    color: black !important;
+    color: #204162 !important; /* 50% tint of #3F82C4 */
 }
 .navbar-brand {
-    color: black !important;
+    color: #204162 !important; /* 50% tint of #3F82C4 */
 }
 .nav-link {
-    color: black !important;
+    color: #204162 !important; /* 50% tint of #3F82C4 */
 }
 #icon {
     color: black !important;
+    filter: brightness(0) saturate(100%) invert(20%) sepia(97%) saturate(365%) hue-rotate(169deg) brightness(92%) contrast(93%);
 }
 #themetoggler:hover {
-    background-color: rgb(188, 188, 188);
+    background-color: #dadada;
 }
 
 #about {
@@ -37,6 +38,12 @@ body {
     background-color: #e7e7e7 !important;
 }
 .btn-primary {
-    background-color: rgb(131, 146, 233);
+    background-color: #3F82C4;
     color: white !important;
+}
+.license {
+    background-color: #e7e7e7;
+}
+h1,h2 {
+    color: #204162 !important; /* 50% tint of #3F82C4 */
 }
