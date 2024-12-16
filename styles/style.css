@@ -68,10 +68,6 @@ h2 {
     display: flex;
 }
 
-.card3{
-    visibility: hidden !important;
-}
-
 .card {
     border-radius: 12px;
     margin-bottom: 2vh;
