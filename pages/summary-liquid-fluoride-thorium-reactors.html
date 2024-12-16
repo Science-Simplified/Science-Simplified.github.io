@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Science Simplified</title>
+
+    <!-- bootstrap and custom css files start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" id="style1"/>
+    <link href="../styles/dark.css" rel="stylesheet" type="text/css" id="style"/>
+    <!-- end -->
+
+  </head>
+  <body>
+    <!-- navigation bar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Science Simplified</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="about" href="about.html">About</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nopad">
+            <li class="nav-item">
+            <button id="themetoggler" onclick = "changeStyle()"> 
+              <img id="icon" src="../icons/sun-fill.svg">
+            </button>
+            <script>
+               // change stylesheet using JavaScript
+               function changeStyle() {
+                  var style = document.getElementById("style");
+                  if (style.href == "http://127.0.0.1:5500/styles/dark.css") {
+                    style.href = "http://127.0.0.1:5500/styles/light.css";
+                  } 
+                  else {
+                     style.href = "http://127.0.0.1:5500/styles/dark.css";
+                  }
+                  var icon = document.getElementById("icon");
+                  if (icon.src.includes("moon-fill")) {
+                    icon.src = "../icons/sun-fill.svg";
+                  }
+                  else {
+                    icon.src = "../icons/moon-fill.svg";
+                  }
+                  }
+            </script>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation bar end -->
+    <div class="page-content">
+        <h1>Summary of "Liquid Fluoride Thorium Reactors: A New Idea in Nuclear Power Gets Reexamined"</h1>
+        <div class="text">
+            <span class="bold">Opening Notes:</span> This is a summary of a 2010 document about the potential of a nonstandard technology for a nuclear reactor. Citations are at the botton of the page. <br> <br>
+            <div class="bold">Introduction:</div>
+                <ul>
+                    <li>In 1965, the Molten Salt Reactor Experiment, a reactor using nuclear fuel dissolved in fluoride salts, began to be functional as a reactor, it operated for 5 years.
+                    </li>
+                    <li>This technology is no longer in common use.
+                    </li>
+                </ul>
+            <div class="bold">The Choice:</div>
+                <ul>
+                    <li>Nuclear reactors can be fueled by either solid fuel rods or by fuel dissolved in fluoride salts.
+                    </li>
+                    <li>Solid fuel reactors became the default during the creation of the first nuclear submarine, which used in because of its advantages in the geopolitical and technological reality of the time.
+                    </li>
+                    <li>Solid uranium fuel is imperfect because it is inefficient by nuclear power standards and requires careful human intervention to keep it safe and operational.
+                    </li>
+                </ul>
+            <div class="bold">Thorium:</div>
+                <ul>
+                    <li>When thorium-232, an isotope of thorium found commonly in Earth’s crust, absorbs a neutron, it undergoes some changes that convert it to uranium-233, which is excellent reactor fuel.
+                    </li>
+                    <li>Thorium reactors work by having an inner liquid fuel reactor using uranium-233. This core is surrounded by an outer layer of dissolved thorium, which is converted into uranium and transported into the core.
+                    </li>
+                </ul>
+            <div class="bold">Advantages of Liquid Fuel:</div>
+                <ul>
+                    <li>Liquid Fluoride Thorium Reactors (LFTRs) produce less waste and operate more consistently because there are no damaged fuel rods to be removed.
+                    </li>
+                    <li>This means that all more of the fuel put into an LFTR is turned into energy for human use and harmful fission byproducts can be removed without removing fuel.
+                    </li>
+                    <li>Liquid fluoride salt solutions are already commonly used in other industries, so much of the technology needed already exists.
+                    </li>
+                </ul>
+            <div class="bold">Waste Not:</div>
+                <ul>
+                    <li>LFTRs produce safer nuclear waste than solid fuel reactors, taking a thousandth of the time to become completely safe after first being isolated.
+                    </li>
+                </ul>
+            <div class="bold">Safety First:</div>
+                <ul>
+                    <li>LFTRs are safer than solid uranium reactors because they do not have water at explosive temperatures and pressures, like solid uranium reactors do. This explosive water is the most dangerous part of a solid uranium reactor because it is so difficult to contain.
+                    </li>
+                    <li>LFTRs can also be safer because of passive safety features they have, which prevent a meltdown that has already started by automatically limiting or containing the reaction.
+                    </li>
+                </ul>
+            <div class="bold">Cost Wise:</div>
+                <ul>
+                    <li>LFTRs use simply parts at safer pressure, making several costly regulations simply not apply.
+                    </li>
+                    <li>The article proposes American commercialization of LFTR technology as a means of lowering costs, as well as modular construction as a way to maintain part quality.
+                    </li>
+                </ul>
+            <div class="bold">Nonproliferation:</div>
+                <ul>
+                    <li>LFTRs use a mixture of fuel that makes it difficult to use the fuel for malicious purposes, and the production of the reactor would drop if fuel was taken from it, making it better at preventing fuel from being used to make nuclear weapons.
+                    </li>
+                </ul>
+            <div class="bold">Prospects:</div>
+                <ul>
+                    <li class="bold">NOTE: This article was written in 2010 and much of this section will not apply today. I may update this with more recent information.
+                    </li>
+                    <li>In 2010, the Department of Energy spent $528 million on a new experimental reactor focusing on new nuclear technology, but LFTRs were not considered for the project.
+                    </li>
+                    <li>No American companies seem to be working on this project as of now (2010), but this could change and there are scientists who are determined to make LFTRs viable.
+                    </li>
+                </ul>
+
+                <br><br>
+            <div class="bold">Citation:</div>
+            Hargraves, R., & Moir, R. (2010). Liquid Fluoride Thorium Reactors: An old idea in nuclear power gets reexamined. American Scientist, 98(4), 304–313. <a href="http://www.jstor.org/stable/27859537">http://www.jstor.org/stable/27859537</a>
+            <br><br>
+
+        </div>
+
+    </div>
+    <div class="license">
+        <p class="text" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://science-simplified.github.io/pages/summary-liquid-fluoride-thorium-reactors.html">Summary of "Liquid Fluoride Thorium Reactors: A New Idea in Nuclear Power Gets Reexamined"</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://science-simplified.github.io">J.J.</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+    </div>
+
+    <!-- bootstrap and custom javascript files start -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- end -->
+
+  </body>
+
+</html>
