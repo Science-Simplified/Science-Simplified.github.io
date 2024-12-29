@@ -1,10 +1,17 @@
 body {
-    font-family: 'acumin-pro', sans-serif;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
 }
 .navbar {
     font-weight: 600;
 }
+.logo {
+    height: 3vh;
+    justify-self: top;
+    margin-left: 1vh;
+}
 .navbar-brand {
+    display: flex;
     font-weight: medium;
 }
 .nav-link {
