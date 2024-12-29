@@ -23,9 +23,6 @@ body {
 #about {
     color: whitesmoke;
 }
-#about:hover {
-    background-color: darkslategray;
-}
 
 .navbar-toggler {
     color: whitesmoke !important;
