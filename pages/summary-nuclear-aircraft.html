@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Science Simplified</title>
+    <link rel="icon" type="image/x-icon" href="../icons/favicon.ico">
+
+    <!-- bootstrap and custom css files start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" id="style1"/>
+    <link href="../styles/dark.css" rel="stylesheet" type="text/css" id="style"/>
+    <!-- end -->
+
+  </head>
+  <body>
+    <!-- navigation bar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img class="logo" src="../icons/Science Simplified Icon Scandium.png">
+          ience   ‎ 
+          <img class="logo" src="../icons/Science Simplified Icon Silicon.png">
+          mplified
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="about" href="about.html">About</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nopad">
+            <li class="nav-item">
+            <button id="themetoggler" onclick = "changeStyle()"> 
+              <img id="icon" src="../icons/sun-fill.svg">
+            </button>
+            <script>
+               // change stylesheet using JavaScript
+               function changeStyle() {
+                  var style = document.getElementById("style");
+                  if (style.href == "http://127.0.0.1:5500/styles/dark.css") {
+                    style.href = "http://127.0.0.1:5500/styles/light.css";
+                  } 
+                  else {
+                     style.href = "http://127.0.0.1:5500/styles/dark.css";
+                  }
+                  var icon = document.getElementById("icon");
+                  if (icon.src.includes("moon-fill")) {
+                    icon.src = "../icons/sun-fill.svg";
+                  }
+                  else {
+                    icon.src = "../icons/moon-fill.svg";
+                  }
+                  }
+            </script>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation bar end -->
+    <div class="page-content">
+        <h1>Summary of "Nuclear Aviation Project"</h1>
+        <div class="text">
+            <span class="bold">Opening Notes:</span> This is a summary of a 2023 project about the theoretical design of a nuclear powered passenger airplane. Citations are at the bottom of the page. <br> <br>
+            <div class="bold underline">Introduction:</div>
+                <ul>
+                    <li>We need to lower greenhouse gas emissions from aircraft and nuclear is feasible for this goal.
+                    </li>
+                </ul>
+            <div class="bold">Why Nuclear:</div>
+                <ul>
+                    <li>Nuclear is safe, clean, and reliable, having a low carbon footprint while operating continuously.
+                    </li>
+                    <li>While nuclear planes would be expensive, the fuel is much cheaper for the amount of energy gained from it compared to fossil fuels.
+                    </li>
+                    <li>The other option for clean aircraft than nuclear is biofuel, which would require a ton of changes to how we do agriculture, as well as a lot of farmland being used for biofuel production.
+                    </li>
+                </ul>
+            <div class="bold underline">Fuel Lifecycle:</div>
+            <div class="bold">Fuel:</div>
+                <ul>
+                    <li>This concept would use high assay low-enriched uranium (HALEU), which is uranium enriched to be around 20% of uranium 235, the most reactive kind of uranium.
+                    </li>
+                    <li>Plutonium or more enriched uranium would be better fuels, but it presents the risk of the fuel being used to make nuclear weapons, and thorium fuel, as discussed in my 12/15 summary, is not researched enough to be predictable enough for a plane and its potential danger.
+                    </li>
+                    <li>In order to maintain a low weight and high reliability, This airplane design would use a molten salt-based small modular reactor.
+                    </li>
+                </ul>
+            <div class="bold">Mining:</div>
+                <ul>
+                    <li>The uranium would likely come from mines underneath the Colorado Plateau, which contains a large amount of uranium.
+                    </li>
+                    <li>These mines may be difficult to work under due to historical and political issues with the mines harming Native American groups, particularly the Navajo, who live on the Colorado Plateau.
+                    </li>
+                </ul>
+            <div class="bold">Transportation:</div>
+                <ul>
+                    <li>The raw uranium mined in Colorado would be transported through a truck route not passing through any major population centers to a to-be-constructed enrichment facility in Nevada. 
+                    </li>
+                    <li>The enriched uranium will be packaged for the reactor and then shipped by a similar method to the plane construction and testing facility.
+                    </li>
+                </ul>
+            <div class="bold">Reactor Implementation:</div>
+                <ul>
+                    <li>While the exact engine this concept would use is unknown, since it has not been thoroughly researched yet, it would likely use a spherical molten salt reactor, which is safer to be around than alternatives and produces much power for its size and weight.
+                    </li>
+                    <li>The intense heat generated by this reactor would be transferred to another fluid and heat the engines that power the plane.
+                    </li>
+                    <li>One disadvantage of molten salt reactors is that the molten salts in question are corrosive, but this disadvantage could be mediated by cladding the reactor with certain alloys that are not corroded by the salt.
+                    </li>
+                </ul>
+            <div class="bold">Shielding:</div>
+                <ul>
+                    <li>In order to keep passengers safe from neutrons and gamma rays from the reactor, two levels of shielding are required.
+                    </li>
+                    <li>Shielding from neutrons can be done simply with a layer of polyurethane plastic between the reactor and the passengers.
+                    </li>
+                    <li>Shielding from gamma rays is more difficult, requiring a thick layer of lead weighing up to 115,000 pounds. This would need significant optimization and serves as a roadblock to nuclear passenger aircraft.
+                    </li>
+                </ul>
+            <div class="bold">Storage:</div>
+                <ul>
+                    <li>After many years of operation, spent fuel would be temporarily stored in reinforced concrete casks, and the plane would be refueled, repaired, retired, or fitted with a new engine.
+                    </li>
+                </ul>
+            <div class="bold">Disposal of Fuel:</div>
+                <ul>
+                    <li>The spent fuel would be disposed of by recycling it into new fuel and storing the rest of the fuel that could not be recycled into a storage site for spent nuclear fuel.
+                    </li>
+                </ul>
+            <div class="bold underline">Plane Structure:</div>
+            <div class="bold">Engine:</div>
+                <ul>
+                    <li>The design is inspired by a previous engine from a previous nuclear airplane concept, the NB-36. Both engines work similarly to a turbojet, by compressing incoming air and heating it up before expelling it from the back of the engine, generating thrust. This is used in nearly every passenger aircraft today.
+                    </li>
+                    <li>A difference between the designs is that the new design proposed in this article is based on a turbofan system, which differs slightly from a turbojet engine and is quieter and more efficient.
+                    </li>
+                    <li>Another such difference is that this proposed design uses multiple methods of exchanging heat from the reactor to the engine, which makes the air expelled from the engines not radioactive, as was the case with previous nuclear reactor-powered engine designs.
+                    </li>
+                    <li>The plane would have to use four smaller engines as opposed to the more standard two in modern plane designs, but technological advancements could result in a two-engine plane.
+                    </li>
+                    <li>This design produces a comparable amount of thrust to a Boeing 737 MAX 8 while having smaller, simpler engines. 
+                    </li>
+                </ul>
+            <div class="bold">Structure:</div>
+                <ul>
+                    <li>Unlike typical plane designs, in which the wings are constructed separately from the hull, in this design the wings and the section of the hull containing the reactor would be constructed together.
+                    </li>
+                    <li>This construction has several advantages, such as keeping the plane more balanced in the air than other design ideas and protecting passengers and crew from radiation-related danger in the event of a crash.
+                    </li>
+                    <li>The first class and economy sections of the plane would be switched in order to keep the balance of the plane. (Which I never thought would have to be a consideration in airplane designs but I found very interesting)
+                    </li>
+                    <li>The design would be significantly heavier than previous designs, but should be able to stay in the air and can become lighter with technological development.
+                    </li>
+                </ul>
+            <div class="bold">Changes to the Industry:</div>
+                <ul>
+                    <li>Airport design would have to change slightly to accommodate the new design of these planes.
+                    </li>
+                    <li>One change airports would have to accommodate is that the reactors would not turn off while the plane is on the ground, so the airport might have to connect the plane to a battery or the power grid that the city is in so that the reactor can continue operation.
+                    </li>
+                    <li>Another change is that runways would have to be longer and stronger in order to accommodate the heavier design of these planes.
+                    </li>
+                </ul>
+            <div class="bold">Operations:</div>
+                <ul>
+                    <li>The plane would start the turbines using a rechargeable battery at the tail of the plane before switching to nuclear power once in the air.
+                    </li>
+                    <li>This battery, which would be recharged by the reactor midair, would power the other operations of the plane such as lights, signage, and pilot controls.
+                    </li>
+                    <li>The battery also allows the pilot to have an emergency shutoff control for the reactor while maintaining flight for a short time.
+                    </li>
+                </ul>
+            <div class="bold">Engine:</div>
+                <ul>
+                    <li>Especially recently, plane crashes have not been common (Although at the time of this summary being written, two have occurred in the last week, I think this statement still holds, especially given the greater political ramifications of a nation shooting down a nuclear-powered aircraft.)
+                    </li>
+                    <li>The following safety considerations would be implemented to minimize the danger of such aircraft:
+                    </li>
+                    <li>All workers on the airplane would need specific training in handling nuclear reactors.
+                    </li>
+                    <li>The design of the aircraft’s reactor into its hull maximizes the chance of the reactor surviving any crash.
+                    </li>
+                    <li>Means of controlling nuclear reactions such as control rods and breakage zones would be built into the design of the plane.
+                    </li>
+                    <li>Molten Salt will be stored outside of the reactor when the reactor is off, preventing a meltdown while the plane is in storage or at an airport.
+                    </li>
+                </ul>
+            <div class="bold underline">Human Factors:</div>
+            <div class="bold">Environmental Considerations:</div>
+                <ul>
+                    <li>A nuclear-powered plane produces virtually no greenhouse gas emissions in flight, as well as virtually no contrails or aviation-induced cirrus clouds. This cuts out the vast majority of flight-related environmental impact.
+                    </li>
+                    <li>The largest remaining environmental concern is from uranium mining. Since this concept uses American-mined uranium, the Environmental Protection Agency would need to step in to ensure safety procedures in mining, such as mitigating uranium dust being kicked up and waste material being put into the water supply.
+                    </li>
+                    <li>Proper reactor shielding prevents radiation from being emitted during flight from the reactor.
+                    </li>
+                </ul>
+            <div class="bold">Political Constraints:</div>
+                <ul>
+                    <li>United States Department of Energy and the Federal Aviation Administration have funding put aside that nuclear-powered aircraft could apply for. This would probably fund much of the development of a nuclear airplane.
+                    </li>
+                </ul>
+            <div class="bold">Public Opinion:</div>
+                <ul>
+                    <li>Approval of nuclear power is closely tied to knowledge of the subject. The 2022 National Nuclear Energy Public Opinion Survey found that while only 48% of people who did not think they were informed about nuclear energy approved of it, 86% of those knowledgeable about the subject approved of it, and education regarding nuclear power is increasing across the country.
+                    </li>
+                </ul>
+            <div class="bold underline">Financial Consideration:</div>
+            <div class="bold">Aircraft:</div>
+                <ul>
+                    <li>A nuclear aircraft would be much more expensive up front, but make up for it with the much lower fuel cost, ending up about the same cost as a fossil fuel airplane over its lifetime.
+                    </li>
+               </ul>
+            <div class="bold">Fuel Lifecycle:</div>
+                <ul>
+                    <li>Each refueling of the airplane, which would not be often, would cost a little under $5000
+                    </li>
+                </ul>
+            <div class="bold underline">Conclusion:</div>
+                <ul>
+                    <li>Given the expansion of air travel, we need it to be clean.
+                    </li>
+                    <li>New legislation would be required for this.
+                    </li>
+                    <li>Assuming all new legislation is passed and no new roadblocks are found, nuclear passenger aircraft should be around by 2050.
+                    </li>
+                </ul>
+
+                <br><br>
+            <div class="bold">Citation:</div>
+            Joy, K., Lewis, C., Pradhan, A., Pratt, B., & Tesch, M. <a href="https://blueskies.nianet.org/wp-content/uploads/2023-Blue-Skies-Final-Research-Paper-Texas-AM-University.pdf">Nuclear Aviation Project.</a>
+            <br><br>
+
+        </div>
+
+    </div>
+    <div class="license">
+      <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://science-simplified.github.io/pages/summary-nuclear-aircraft.html">Summary of "Nuclear Aviation Project"</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://science-simplified.github.io">J.J.</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
+    </div>
+
+    <!-- bootstrap and custom javascript files start -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- end -->
+
+  </body>
+
+</html>
