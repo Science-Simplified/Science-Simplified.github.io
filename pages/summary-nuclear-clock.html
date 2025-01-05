@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Science Simplified</title>
+    <link rel="icon" type="image/x-icon" href="../icons/favicon.ico">
+
+    <!-- bootstrap and custom css files start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" id="style1"/>
+    <link href="../styles/dark.css" rel="stylesheet" type="text/css" id="style"/>
+    <!-- end -->
+
+  </head>
+  <body>
+    <!-- navigation bar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img class="logo" src="../icons/Science Simplified Icon Scandium.png">
+          ience   ‎ 
+          <img class="logo" src="../icons/Science Simplified Icon Silicon.png">
+          mplified
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="about" href="about.html">About</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nopad">
+            <li class="nav-item">
+            <button id="themetoggler" onclick = "changeStyle()"> 
+              <img id="icon" src="../icons/sun-fill.svg">
+            </button>
+            <script>
+               // change stylesheet using JavaScript
+               function changeStyle() {
+                  var style = document.getElementById("style");
+                  if (style.href == "http://127.0.0.1:5500/styles/dark.css") {
+                    style.href = "http://127.0.0.1:5500/styles/light.css";
+                  } 
+                  else {
+                     style.href = "http://127.0.0.1:5500/styles/dark.css";
+                  }
+                  var icon = document.getElementById("icon");
+                  if (icon.src.includes("moon-fill")) {
+                    icon.src = "../icons/sun-fill.svg";
+                  }
+                  else {
+                    icon.src = "../icons/moon-fill.svg";
+                  }
+                  }
+            </script>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation bar end -->
+    <div class="page-content">
+        <h1>Summary of "Frequency ratio of the Thorium-229 nuclear isomeric transition and the Strontium-87 atomic clock"</h1>
+        <div class="text">
+            <span class="bold">Opening Notes:</span> This is a summary of a recent article about research regarding an incredibly accurate nuclear clock. I am using a new method of summary in this article that should be more summarized, readable, and easier to produce. Citations are at the bottom of the page. <br> <br>
+            <p><span class="indent"> </span>Optical atomic clocks, the kind used to measure the time in scientific experiments and computers, are very precise, but different clock technologies, based around the changes in the nucleus of an atom, can have various advantages. These advantages include the precision of the clock, the ability of these clocks to be transported and its ability to be used in smaller scientific studies without access to laboratory clocks.
+            </p>
+            <p><span class="indent"> </span>New generation clocks will likely be based on thorium-229, a form of the element thorium. Thorium is useful for this because its nuclear transition, which is measured in a clock, due to its low frequency and that thorium is resistance to external electromagnetic factors, making it good for transporting it. 
+            </p>
+            <p><span class="indent"> </span>The authors followed previous work on thorium, which used thorium embedded in crystalline calcium fluoride to determine the frequency of light that causes this nuclear transition. They used short pulses of UV light to find a ratio that matches its natural frequency that causes the transition to occur to the frequency of the Strontium clock.
+            </p>
+            <p><span class="indent"> </span>The authors found the frequency through mounting a crystal and blasting it with ultraviolet light for a certain amount of time and observing the decay of the crystal’s percentage. After utilizing several equations and creating several graphs, they were able to find the transition frequency to be 2,020,407,384,335 kilohertz, with an uncertainty of 2 kilohertz. They found that the ratio between the thorium and strontium clocks to be roughly 4.707.
+            </p>
+            <p><span class="indent"> </span>This could be made more accurate and precise through several means, such as the following:
+            </p>
+            <ul class="indent">
+                <li class=>A laser with less noise and more power
+                </li>
+                <li>More direct readouts of the transitions could create a more stable clock
+                </li>
+                <li>Modifications of the crystal, such as the amount of thorium embedded or the kind of crystal it is embedded in mights make the clock more accurate and precise.
+                </li>
+            </ul>
+
+                <br><br>
+            <div class="bold">Citation:</div>
+            Zhang, C., Ooi, T., Higgins, J. S., Doyle, J. F., von der Wense, L., Beeks, K., … Ye, J. (2024). Frequency ratio of the 229mTh nuclear isomeric transition and the 87Sr atomic clock. Nature, 633(8028), 63–70. doi:10.1038/s41586-024-07839-6
+            <br><br>
+
+        </div>
+
+    </div>
+    <div class="license">
+       <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://science-simplified.github.io/pages/summary-nuclear-clock.html">Summary of "Frequency ratio of the Thorium-229 nuclear isomeric transition and the Strontium-87 atomic clock"</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://science-simplified.github.io/">J.J.</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
+    </div>
+
+    <!-- bootstrap and custom javascript files start -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- end -->
+
+  </body>
+
+</html>
