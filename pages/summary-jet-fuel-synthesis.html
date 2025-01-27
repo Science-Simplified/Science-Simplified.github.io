@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Science Simplified</title>
+    <link rel="icon" type="image/x-icon" href="../icons/favicon.ico">
+
+    <!-- bootstrap and custom css files start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" id="style1"/>
+    <link href="../styles/dark.css" rel="stylesheet" type="text/css" id="style"/>
+    <!-- end -->
+
+  </head>
+  <body>
+    <!-- navigation bar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img class="logo" src="../icons/Science Simplified Icon Scandium.png">
+          ience   ‎ 
+          <img class="logo" src="../icons/Science Simplified Icon Silicon.png">
+          mplified
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="about" href="about.html">About</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nopad">
+            <li class="nav-item">
+            <button id="themetoggler" onclick = "changeStyle()"> 
+              <img id="icon" src="../icons/sun-fill.svg">
+            </button>
+            <script>
+               // change stylesheet using JavaScript
+               function changeStyle() {
+                  var style = document.getElementById("style");
+                  if (style.href == "https://science-simplified.github.io/styles/dark.css") {
+                    style.href = "https://science-simplified.github.io/styles/light.css";
+                  } 
+                  else {
+                     style.href = "https://science-simplified.github.io/styles/dark.css";
+                  }
+                  var icon = document.getElementById("icon");
+                  if (icon.src.includes("moon-fill")) {
+                    icon.src = "../icons/sun-fill.svg";
+                  }
+                  else {
+                    icon.src = "../icons/moon-fill.svg";
+                  }
+                  }
+            </script>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation bar end -->
+    <div class="page-content">
+        <h1>Summary of "Transforming carbon dioxide into jet fuel using an organic combustion-synthesized Fe-Mn-K catalyst"</h1>
+        <div class="text">
+            <span class="bold">Opening Notes:</span> This is a summary of an article regarding synthesizing jet fuel using atmospheric greenhouse gasses. I have been unable to upload for the past couple of weeks because I have been quite sick, thank you for waiting. Citations are at the bottom of the page. <br> <br>
+            <p><span class="indent"> </span>As we already know, we need to stop using fossil fuels, and air transport takes a lot of them. One way this can be done is by converting carbon dioxide in the atmosphere into jet fuel, or any hydrocarbon, since they can be converted between each form easily. There are two methods that can be used to do this.
+            </p>
+            <ol class="indent">
+                <li>Convert carbon dioxide directly into a hydrocarbon through a process called hydrogenation
+                </li>
+                <li>Convert carbon dioxide into carbon monoxide through a reaction called reverse water gas shift reaction and then use a process called Fischer-Tropsch synthesis to turn the carbon monoxide into a hydrocarbon.
+                </li>
+            </ol>
+            <p><span class="indent"> </span>This article investigates using the Organic Combustion Method (OCM) to create a high-efficiency iron based catalyst. Unlike other methods, OCM results in little water being wasted while remaining cheap and efficient in creating the proper catalysts. The researched found that the catalyst produced much of the correct compounds, and many of the incorrect ones produced were still useful compounds if not for jet fuel. 
+            </p>
+            <p><span class="indent"> </span>The catalyst created, an inactive catalyst precursor made of Fe-Mn-K (an alloy of iron, manganese, and potassium), performed better when converted into an active catalyst then other precursors with different second and third ingredients at producing jet fuels, and performed better than catalysts made without using OCM.
+            </p>
+            <p><span class="indent"> </span>The researchers also tested different organic compounds to use in OCM, which requires them, as the name implies, and discovered that citric acid worked the best of those tested.
+            </p>
+                <br><br>
+            <div class="bold">Citation:</div>
+                        Yao, B., Xiao, T., Makgae, O.A. et al. Transforming carbon dioxide into jet fuel using an organic combustion-synthesized Fe-Mn-K catalyst. Nat Commun 11, 6395 (2020). https://doi.org/10.1038/s41467-020-20214-z
+            <br><br>
+
+        </div>
+
+    </div>
+    <div class="license">
+       <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://science-simplified.github.io/pages/summary-jet-fuel-synthesis.html">Summary of "Transforming carbon dioxide into jet fuel using an organic combustion-synthesized Fe-Mn-K catalyst"</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://science-simplified.github.io/">J.J.</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p> 
+    </div>
+
+    <!-- bootstrap and custom javascript files start -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- end -->
+
+  </body>
+
+</html>
